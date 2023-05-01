@@ -1,0 +1,54 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:#222;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://source.unsplash.com/weekly?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:120%;
+}
+.weather{
+    padding:1em;
+    margin:5px;
+    color:white;
+}
+.card{
+    background-color: #526a69d0;
+    padding: 2.5rem;
+    border-radius: 30px;
+    width:100%;
+    max-width: 30%;
+
+
+}
+.search{
+    display:flex;
+    justify-content: space-evenly;
+}
+input.search-bar{
+    color:rgb(203, 181, 181);
+    padding:0.5em;
+    font-family: inherit;
+    border-radius: 20px;
+    font-size:100%;
+    width:calc(100% - 100px);
+    background-color: grey;
+ 
+
+}
+button{
+    margin:0.5em;
+    border:none;
+    background: #c2abab2b;
+    border-radius: 50px;
+    outline: none;
+    height:22px;
+    width:22px;
+    color:white;
+    cursor: pointer;
+
+}
