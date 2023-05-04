@@ -9,7 +9,7 @@ let weather = {
    
     apikey: "d9a16e13727944fb091660e8020abeca",
     fetchWeather: function (city) {
-    try{
+ 
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
             + city
@@ -17,12 +17,21 @@ let weather = {
             + this.apikey
         )
         .then((response =>  response.json()))
-        .then((data => console.log(data)))
-    }
-    catch(error){
-        console.log("error")
-    }
-    }
-}
+        .then((data => this.displayWeather(data)))
+        },
+    displayWeather: function (data) {
+        const {name} = data;
+        console.log(name)
+        document.querySelector(".city").innerHTML = `Weather in ${name}`
+       
+    
 
-weather.fetchWeather("Denver")
+
+
+    }
+   
+    }
+
+
+weather.fetchWeather("Africa")
+
