@@ -1,54 +1,30 @@
 
 body{
+    height:500px;
+    font-size:120%;
+    background: url(https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
     display:flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    background:#222;
     font-family: 'Poppins', sans-serif;
-    background-image: url("https://source.unsplash.com/weekly?landscape");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size:120%;
 }
-.weather{
-    padding:1em;
-    margin:5px;
-    color:white;
-}
-.card{
-    background-color: #526a69d0;
-    padding: 2.5rem;
-    border-radius: 30px;
-    width:100%;
-    max-width: 30%;
 
+.card{
+    padding:2.5em;
+   
+    background-color: #ddddddd0;
+    border-radius: 30px;
 
 }
 .search{
-    display:flex;
-    justify-content: space-evenly;
-}
-input.search-bar{
-    color:rgb(203, 181, 181);
-    padding:0.5em;
-    font-family: inherit;
-    border-radius: 20px;
-    font-size:100%;
-    width:calc(100% - 100px);
-    background-color: grey;
- 
-
+    padding:1.5em;
 }
 button{
-    margin:0.5em;
+    padding:1.5em;
+    border-radius:30px;
     border:none;
-    background: #c2abab2b;
-    border-radius: 50px;
-    outline: none;
-    height:22px;
-    width:22px;
-    color:white;
-    cursor: pointer;
+    background-color: #c8afafc7;
 
 }
